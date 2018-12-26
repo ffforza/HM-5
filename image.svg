@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="50" height="50" style="font-size:5em">
+   <path d="M2 10 v38 h46 v-38 h-48 M17 10 v38 M33 10 v38 M0 23 h46 M0 36 h46 M13 0 v5 M37 0 v5 M2 5 h46 M1 7 h48"
+         fill="white" stroke="gray" stroke-width="4px"></path>
+</svg>

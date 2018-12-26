@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="">
+    <h1>User profile</h1>
+    <label for="first-name">First name<span class="red-star">*</span></label><input id="first-name" type="text"  placeholder="Мыкола" required>
+    <label for="last-name">Last name<span class="red-star">*</span></label><input id="last-name" type="text" placeholder="Мыколов" required>
+    <label for="surname">Surname</label><input id="surname" type="text" placeholder="Мыколович">
+    <label for="birth-date">Birth date<span class="red-star">*</span></label><input id="birth-date" type="date" value="mm/dd/yyyy" required>
+    <div class="gender">
+        <fieldset class="field-gender">
+            <legend>Gender</legend>
+            <div>
+                <input type="radio" id="male" name="gender" >
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+        </fieldset>
+    </div>
+    <label for="e-mail">E-mail<span class="red-star">*</span></label><input id="e-mail" type="email" placeholder="e-mail-adress@gmail.com" required>
+    <label for="phone">Phone number</label><input id="phone" type="tel" placeholder="+37525XXXXXXX">
+    <label for="country">Country</label><select id="country"  >
+                                                                <option>Абхазия</option>
+                                                                <option>Австралия</option>
+                                                                <option>Австрия</option>
+                                                                <option>Азербайджан</option>
+                                                                <option>Албания</option>
+                                                                <option>Бахрейн</option>
+                                                                <option>Бангладеш</option>
+                                                                <option>Багамы</option>
+                                                                <option>Беларусь</option>
+                                                                <option>Бельгия</option>
+                                                                <option>Болгария</option>
+                                                                <option>Великобритания</option>
+                                                                <option>Венгрия</option>
+                                                                <option>Венесуэла</option>
+                                                                <option>Вьетнам</option>
+                                                                <option>Германия</option>
+                                                                <option>Гондурас</option>
+                                                                <option>Грузия</option>
+                                                                <option>Доминикана</option>
+                                                                <option>Египет</option>
+                                                                <option>Зимбабве</option>
+                                                                <option>Италия</option>
+
+                                                                                    </select>
+    <label for="adress">Adress<span class="red-star">*</span></label><textarea row="6" id="adress" required></textarea>
+    <div class="check">
+        <input type="checkbox" id="agreement" required>
+        <label for="agreement"><span>I accept the terms in the <a href="">license agreement<span class="red-star">*</span></a></span></label>
+    </div>
+    <button>Save</button>
+</form>
+
+</body>
+</html>

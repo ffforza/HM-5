@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.red-star {
+    color: red;
+}
+form {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    margin: 1em auto;
+    max-width: 600px;
+}
+h1 {
+    grid-column: 2/3;
+    text-align: left;
+    margin: 15px 15px;
+}
+form label {
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: right;
+    grid-column: 1/2;
+}
+.check, .gender, button {
+    grid-column: 2/3;
+}
+input, .gender, select {
+    margin-bottom: 1em;
+}
+input[placeholder], input[value], fieldset {
+    padding: 0.5em 0 0.5em 0.5em;
+}
+input[placeholder]  {
+    font-style: italic;
+}
+.check, button {
+    margin-top: 10px;
+}
+button {
+    border: none;
+    background-color: #0E54E7;
+    width: 250px;
+    height: 40px;
+}
+input, fieldset, textarea, select {
+    border: 2px solid #9ABDFD;
+}
+textarea {
+    resize: vertical;
+    min-height: 30px;
+    max-height: 100px;
+}
+.check input {
+    position: relative;
+    top: 2px;
+}
+select {
+    height: 30px;
+}
+option {
+    color: #000;
+    background: #efefef;
+}
+[type="date"] {
+    background: url("image.svg") 99% 40% no-repeat;
+    background-size: 20px 20px ;
+}
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    margin-right: 6px;
+}
+@media screen and (max-width: 525px) {
+    body {
+        margin: 20px;
+    }
+    form {
+        display: grid;
+        grid-template-columns: minmax(320px,1fr) ;
+    }
+    h1 {
+        grid-column: 1/2;
+        text-align: left;
+    }
+     form label {
+        margin: 10px 10px 10px 0;
+        text-align: left;
+        grid-column: 1/2;
+    }
+    input, .check, .gender, button, textarea, select {
+        grid-column: 1/2;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
