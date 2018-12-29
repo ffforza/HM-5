@@ -16,7 +16,7 @@ form {
     grid-template-columns: 120px 1fr;
     margin: 1em auto;
     width: 50%;
-    min-width: 600px;
+    min-width: 500px;
 }
 h1 {
     grid-column: 2/3;
